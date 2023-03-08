@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    max-width: 1440px;
+}
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 90px;
+    margin: 0 20px 0 20px;
+}
+.wrapper_nav{
+    display: flex;
+    width: 570px;
+}
+.yakor_nav{
+    width: 500px;
+}
+
+.language{
+    display: flex;
+    width: 70px;
+}
+.skills_nav{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+}
+.portfolio_nav{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+}
+.video_nav{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+.price_nav{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+}
+.contacts_nav{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
