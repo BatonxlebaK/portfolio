@@ -1,24 +1,27 @@
-*{
+* {
     padding: 0;
     margin: 0;
     max-width: 1440px;
 }
-body{
+
+body {
     background-color: black;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     height: 90px;
     margin: 0 20px 0 20px;
 }
-.wrapper_nav{
+
+.wrapper_nav {
     display: flex;
     width: 570px;
 }
-.yakor_nav{
+
+.yakor_nav {
     width: 500px;
     display: flex;
     justify-content: space-evenly;
@@ -27,7 +30,8 @@ header{
     font-size: 20px;
     line-height: 50px;
 }
-.language{
+
+.language {
     display: flex;
     width: 70px;
     color: white;
@@ -39,42 +43,55 @@ header{
     font-weight: 700;
     font-family: 'Inter', sans-serif;
 }
-.en_language{
+
+.en_language {
     color: #BDAE82;
 }
-.skills_nav{
+
+.skills_nav {
     text-decoration: none;
     font-style: normal;
     font-family: 'Inter', sans-serif;
 }
-.portfolio_nav{
+
+.portfolio_nav {
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     font-style: normal;
 }
-.video_nav{
+
+.video_nav {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     text-decoration: none;
 }
-.price_nav{
+
+.price_nav {
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     font-style: normal;
 }
-.contacts_nav{
+
+.contacts_nav {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     text-decoration: none;
 }
-.skills_nav,.portfolio_nav,.video_nav,.price_nav,.contacts_nav{
+
+.skills_nav,
+.portfolio_nav,
+.video_nav,
+.price_nav,
+.contacts_nav {
     color: white;
 }
-.hero{
+
+.hero {
     max-width: 500px;
     max-height: 330px;
 }
-.hero_name{
+
+.hero_name {
     color: white;
     font-family: 'Merriweather', serif;
     font-style: normal;
@@ -84,17 +101,19 @@ header{
     margin-top: 160px;
     margin-left: 80px;
 }
-.backgorund_alexa{
+
+.backgorund_alexa {
     background-image: url(/assets/img/bg.jpg);
     background-size: 100%;
     width: 1440px;
     height: 910px;
 }
-.text_hero{
+
+.text_hero {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 400px;
+    font-size: 18px;
     line-height: 40px;
     color: white;
     margin-left: 80px;
@@ -102,13 +121,18 @@ header{
     width: 470px;
     height: 120px;
 }
-.filled_button{
+
+#button_hire_me {
+    margin-left: 80px;
+}
+
+.filled_button {
     background-color: #BDAE82;
     min-width: 220px;
     min-height: 55px;
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    margin-left: 80px;
+    /* font-size: 20px; */
+    margin-left: 5px;
     margin-top: 25px;
     font-style: normal;
     font-weight: 400;
@@ -118,11 +142,13 @@ header{
     border-radius: 0px;
     border: none;
 }
-.filled_button:hover{
+
+.filled_button:hover {
     color: white;
     cursor: pointer;
 }
-.skills_text{
+
+.skills_text {
     width: 700px;
     height: 2px;
     background-color: #BDAE82;
@@ -130,7 +156,8 @@ header{
     margin-right: 364px;
     margin-top: 139px;
 }
-.skills_text_h2{
+
+.skills_text_h2 {
     color: #BDAE82;
     width: 152px;
     height: 80px;
@@ -142,41 +169,63 @@ header{
     text-align: center;
     margin-top: -23.7px;
 }
-.skills_main{
+
+.skills_main {
     width: 1440px;
     height: 482px;
 }
-.skills_block{
+
+.skills_block {
     color: white;
     text-align: center;
-    max-width: 1400px;
+    width: 1400px;
     max-height: 242px;
     justify-content: space-between;
-    justify-items: center;
     display: flex;
     font-family: 'Inter', sans-serif;
     margin: 40px;
 }
-.poragraph_main{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+
+
+.poragraph_main {
+    margin-right: 40px;
+    margin-top: 47px;
+    margin-bottom: 20px;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
+    line-height: 40px;
 }
-.skill_camera,.skill_video,.skill_retouch,.skill_micro{
+.skills_p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 37px 0 0;
+}
+
+.skills_img{
+    margin: 4px 40px 0 0;
+}
+
+.skill_camera,
+.skill_video,
+.skill_retouch,
+.skill_micro {
     width: 320px;
     height: 240px;
 }
-.portfolio_block{
+
+.portfolio_block {
     width: 700px;
     height: 2px;
     background-color: #BDAE82;
     margin-left: 370px;
     margin-right: 370px;
 }
-.portfolio_text_block{
+
+.portfolio_text_block {
     width: 221px;
     height: 80px;
     font-family: 'Merriweather', serif;
@@ -190,34 +239,40 @@ header{
     text-align: center;
     margin-top: -39px;
 }
-.empty_button{
+
+.empty_button {
     min-width: 220px;
     min-height: 55px;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    margin-left: 80px;
+    margin-left: 5px;
     margin-top: 25px;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    /* font-size: 20px; */
     line-height: 40px;
-    color: #000000;
-    border-radius: 0px;
+    /* color: #000000; */
+    /* border-radius: 0px; */
     border: 2px solid #BDAE82;
     border-radius: 0px;
     color: #BDAE82;
     background-color: transparent;
 }
-.empty_button:hover{
+
+.empty_button:hover {
     color: white;
     cursor: pointer;
 }
-.seasons_block{
+
+.seasons_block {
     min-width: 895px;
     min-height: 55px;
     display: flex;
+    justify-content: center;
+    margin: 31px 0 20px 0;
 }
-.img_block_autumn{
+
+.img_block_autumn {
     display: flex;
     flex-wrap: wrap;
     min-width: 1400px;
@@ -225,11 +280,13 @@ header{
     margin-left: -5px;
     margin-right: -5px;
 }
-.img_portfolio{
+
+.img_portfolio {
     margin-left: 25px;
     margin-top: 25px;
 }
-.video_text_block{
+
+.video_text_block {
     color: #BDAE82;
     width: 156.03px;
     height: 80px;
@@ -243,25 +300,44 @@ header{
     text-align: center;
     margin-top: -39px;
 }
-.decorative_line{
+
+.decorative_line {
     background-color: #BDAE82;
     width: 700px;
     height: 2px;
     margin-left: 370px;
 }
-.vidio_block{
+
+.vidio_block {
     max-width: 700px;
     max-height: 80px;
-    margin-top: 200px;
+    margin-top: 129px;
 }
-.video{
+
+.video {
     margin-left: 20px;
 }
-.play_hover_video_block{
+
+.play_hover_video_block {
     margin-left: 636px;
     position: absolute;
     margin-top: 288px;
 }
-.play_hover_video_block:hover{
+
+/* svg path {
+    stroke: inherit;
+    stroke-width: inherit;
+    fill: inherit;
+} */
+
+
+.play_hover_video_block:hover {
     cursor: pointer;
+    fill: #BDAE82;
 }
+
+/* .play_hover_video_block svg:hover {
+    cursor: pointer;
+    fill: #BDAE82;
+    stroke: #BDAE82;
+} */
